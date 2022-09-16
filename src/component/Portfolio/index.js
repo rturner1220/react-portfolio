@@ -1,6 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Portfolio() {
+
+function Portfolio(props) {
+
+
     return (
         <section>
             <h1>NAME</h1>
