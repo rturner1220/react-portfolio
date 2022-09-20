@@ -1,21 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
+function Nav(props) {
+    const {
+        pages = [],
+        setCurrentPage,
+        currentPage,
+    } = props;
 
-function Nav() {
-
-    const categories = [
-        {
-            name: "Portfolio",
-        },
-        {
-            name: "Resume",
-        },
-    ];
-
-    const handleClick = () => {
-        console.log("click handled")
-    }
+    useEffect(() => {
+        document.title = capitalizeFirstLetter(currentPage.name);
+    }, [currentPage]);
 
     return (
         <header data-testid="header" className="flex-row px-1">
@@ -26,25 +21,20 @@ function Nav() {
             </h2>
             <nav>
                 <ul className="flex-row">
-                    <li className="mx-2">
-                        <a href="#about" onClick={() => handleClick()}>
-                            About me
-                        </a>
-                    </li>
-                    <li className={"mx-2"}>
-                        <span onClick={() => handleClick()}>
-                            Contact
-                        </span>
-                    </li>
-                    {
-                        categories.map((category) => (
-                            <li className="mx-1" key={category.name} >
-                                <span onClick={() => { handleClick(); }}>
-                                    {capitalizeFirstLetter(category.name)}
-                                </span>
-                            </li>
-                        ))
-                    }
+
+                    {pages.map((Page) => (
+                        <li
+                            className={`nav-item nav-link js-scroll-trigger ${currentPage.name === Page.name && 'active'
+                                }`}
+                            key={Page.name}
+                        >
+                            <span
+                                onClick={() => setCurrentPage(Page)}
+                            >
+                                {capitalizeFirstLetter(Page.name)}
+                            </span>
+                        </li>
+                    ))}
                 </ul>
             </nav>
         </header>

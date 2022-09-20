@@ -1,16 +1,25 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import { GitHub } from '@material-ui/icons';
 
-
-function Portfolio(props) {
-
-
+function Portfolio({ image, name, web, link }) {
+    console.log(image, name, web, link)
     return (
-        <section>
-            <h1>NAME</h1>
-            <p>DESCRIPTION</p>
-        </section>
-    );
+        <div className='portfolio'>
+            <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
+            <div className="portfolio-box-caption">
+                <div className="portfolio-box-caption-content">
+                    <br />
+                    <div className='icons'>
+                        <a href={link}>
+                            <GitHub /></a>
+                        <a href={web}>Web
+                        </a>
+                    </div>
+                    <h2> {name} </h2>
+                </div >
+            </div>
+        </div>
+    )
 }
 
-export default Portfolio
+export default Portfolio;
