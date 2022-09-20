@@ -50,6 +50,5 @@ A single page app portfolio built with React.
 https://rturner1220.github.io/react-portfolio/
 
 # Deployed Site Screenshots
-Screenshot01.png
-Screenshot02.png
-
+![Screenshot01](https://user-images.githubusercontent.com/101642385/191301132-1b80680f-e19e-46bd-8eb1-1541279a28d6.png)
+![Screenshot02](https://user-images.githubusercontent.com/101642385/191301186-a10deebd-92e0-4d5c-bfaf-9180bcacec09.png)
