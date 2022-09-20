@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "3e3099a37e9c04f7a6b0",
-    "url": "/rturner1220/React-Portfolio/static/css/main.9860899a.chunk.css"
+    "revision": "536be675cf4c84e4e521",
+    "url": "/rturner1220/React-Portfolio/static/css/main.107384c5.chunk.css"
   },
   {
-    "revision": "3e3099a37e9c04f7a6b0",
-    "url": "/rturner1220/React-Portfolio/static/js/main.3e3099a3.chunk.js"
+    "revision": "536be675cf4c84e4e521",
+    "url": "/rturner1220/React-Portfolio/static/js/main.536be675.chunk.js"
   },
   {
-    "revision": "e7e0e04a5ea3842eb42e",
-    "url": "/rturner1220/React-Portfolio/static/js/1.e7e0e04a.chunk.js"
+    "revision": "2d3efeb71c7eebfe7cd0",
+    "url": "/rturner1220/React-Portfolio/static/js/1.2d3efeb7.chunk.js"
   },
   {
-    "revision": "b85c813065228f218961",
-    "url": "/rturner1220/React-Portfolio/static/js/2.b85c8130.chunk.js"
+    "revision": "be05767538d412b37818",
+    "url": "/rturner1220/React-Portfolio/static/js/2.be057675.chunk.js"
   },
   {
-    "revision": "63ab4a0e82ffadb587bb",
-    "url": "/rturner1220/React-Portfolio/static/js/runtime~main.63ab4a0e.js"
+    "revision": "f1de56a0b52ca0813c79",
+    "url": "/rturner1220/React-Portfolio/static/js/runtime~main.f1de56a0.js"
   },
   {
     "revision": "d4beac3a2bf5d2367dbb98bc4f84d5cc",
@@ -48,11 +48,15 @@ self.__precacheManifest = [
     "url": "/rturner1220/React-Portfolio/static/media/app06.35f894f1.png"
   },
   {
+    "revision": "42d0fc3be82f5d1f671ac2fd2475f8bf",
+    "url": "/rturner1220/React-Portfolio/static/media/Rosa_Turner_Resume.42d0fc3b.pdf"
+  },
+  {
     "revision": "d2fa5d00d302f59e9a263d3150d294a0",
     "url": "/rturner1220/React-Portfolio/static/media/header.d2fa5d00.jpg"
   },
   {
-    "revision": "b3782ca3d9338b2a15c1834ac90b2676",
+    "revision": "80f79ff5746f3f4c2f6d17e0ebe68578",
     "url": "/rturner1220/React-Portfolio/index.html"
   }
 ];
